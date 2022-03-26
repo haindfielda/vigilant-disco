@@ -22,3 +22,11 @@ img{
 #linkToSoccer:hover {
 color: blue;
 }
+#linkToTennis{
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+#linkToTennis:hover {
+color: blue;
+}
