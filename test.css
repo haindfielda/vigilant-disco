@@ -35,10 +35,13 @@ body.wrong {
 .container {
   width: 800px;
   max-width: 80%;
+  height: 200px;
+  max-height: 20%;
   background-color: white;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 10px 2px;
+  
 }
 
 .btn-grid {
@@ -50,6 +53,7 @@ body.wrong {
 }
 #backToHome:hover {
   border-color: black;
+  
 }
 .btn {
   --hue:var(--hue-neutral);
@@ -63,6 +67,7 @@ body.wrong {
 
 .btn:hover {
   border-color: black;
+  
 }
 
 .btn.correct {
@@ -75,13 +80,20 @@ body.wrong {
 }
 
 .start-btn, .next-btn {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-size: 800%;
   font-weight: bold;
   padding: 10px 20px;
+  align-content: center;
+  
 }
 
 .controls {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hide {
+  display: none;
 }
