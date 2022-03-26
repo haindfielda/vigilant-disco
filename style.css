@@ -27,6 +27,12 @@ color: blue;
     font-size: 20px;
     color: black
 }
+#Video{
+    text-decoration: none;
+    font-size: 20px;
+    color: black 
+}
+
 #linkToTennis:hover {
 color: blue;
 }
