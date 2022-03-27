@@ -92,7 +92,7 @@ function selectAnswer(e) {
     questionContainerElement.classList.add('hide')
   }
   else {
-    if (totalPoints == '-97750') {
+    if (totalPoints == '-97750' || totalPoints == '-977-100') {
       
       tennisButtonElement.classList.remove('hide')
     }
@@ -100,11 +100,11 @@ function selectAnswer(e) {
         
       lacrosseElement.classList.remove('hide')
     }
-    else if (totalPoints == '-97760' ) {
+    else if (totalPoints == '-97760' || totalPoints == '-9771738') {
         
       bowlingButtonElement.classList.remove('hide')
     }
-    else if (totalPoints == '654500' ) {
+    else if (totalPoints == '654500' || totalPoints == '65450' ) {
         
       soccerButtonElement.classList.remove('hide')
     }
@@ -162,8 +162,8 @@ const questions = [
   {
     question: 'What do you focus on hitting when in the gym?',
     answers: [
-      {text: 'Arms', points: -100},
-      {text: 'Legs', correct: false, points: 500 },
+      {text: "Arms - sun's out guns out", points: -100},
+      {text: "I don't ever skip leg day", correct: false, points: 500 },
       {text: "I don't go to the gym", correct: false, points: 60},
       {text: 'Cardio', correct: false, points: 50},
       {text: 'Slaying', correct: true, points: 1738}
