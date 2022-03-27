@@ -58,11 +58,11 @@ body {
 }
 
 body.correct {
-  --hue: var(var(--hue-correct));
+  
 }
 
 body.wrong {
-  --hue: var(var(--hue-wrong));
+ 
 }
 
 .container {
