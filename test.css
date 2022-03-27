@@ -126,9 +126,10 @@ body.wrong {
   font-size: 2rem;
   font-size: 600%;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 20px 10px;
   align-content: center;
   
+ 
 }
 
 .controls {
