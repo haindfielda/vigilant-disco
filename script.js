@@ -19,6 +19,7 @@ var totalPoints = ""
 
 startButton.addEventListener('click',startGame)
 nextButton.addEventListener('click', () => {
+  questionContainerElement.classList.remove('hide')
   currentQuestionIndex++
   setNextQuestion()
 })
@@ -88,7 +89,7 @@ function selectAnswer(e) {
   
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
-    
+    questionContainerElement.classList.add('hide')
   }
   else {
     if (totalPoints == '-97750') {
@@ -114,9 +115,11 @@ function selectAnswer(e) {
     else {
       waterPoloElement.classList.remove('hide')
     }
+    console.log(totalPoints)
     //startButton.innerText = totalPoints
     //startButton.classList.remove('hide')
     totalPoints = 0
+    questionContainerElement.classList.add('hide')
     
 
   }
