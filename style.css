@@ -14,6 +14,27 @@ img{
     text-align: left;
     color: orange
 }
+#dTitle{
+    text-align: center;
+}
+#dropdown{
+    padding-top: 0%;
+    padding-left: 50%;
+    padding-right: 50;
+    
+}
+#header {
+    text-align: center;
+}
+#linkToTest{
+    text-align: center;
+}
+#tagline{
+    text-align: center;
+}
+#question{
+    text-align: center;
+}
 #soccerBase {
     width: 60%;
 }
