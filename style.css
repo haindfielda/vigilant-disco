@@ -19,6 +19,27 @@ img{
     text-align: left;
     color: orange
 }
+#dTitle{
+    text-align: center;
+}
+#dropdown{
+    padding-top: 0%;
+    padding-left: 50%;
+    padding-right: 50;
+
+}
+#header {
+    text-align: center;
+}
+#linkToTest{
+    text-align: center;
+}
+#tagline{
+    text-align: center;
+}
+#question{
+    text-align: center;
+}
 #soccerBase {
     width: 60%;
 }
@@ -37,6 +58,9 @@ img{
 #soccerFieldSetUp {
     width: 50%;
 }
+#H2Osetup {
+    width: 50%;
+}
 #DsetUp {
     width: 50%;
 }
@@ -51,7 +75,24 @@ img{
 #linkToSoccer:hover {
 color: blue;
 }
+#linkToRDerby:hover {
+    color: blue;
+    }
+ #linkToLacrosse:hover {
+    color: blue;
+ }
+ #linkToBowling:hover {
+    color: blue;
+    }
+ #linkTowaterpolo:hover {
+    color: blue;
+     }
 #linkToTennis{
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+#linkTowaterpolo{
     text-decoration: none;
     font-size: 20px;
     color: black
@@ -77,6 +118,11 @@ color: blue;
     color: blue 
 }
 
+#rulesOfwaterpolo{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue 
+}
 #rulesOfTennis{
     text-decoration: none;
     font-size: 20px;
