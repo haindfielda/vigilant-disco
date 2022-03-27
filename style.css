@@ -67,11 +67,7 @@ color: blue;
     font-size: 20px;
     color: black
 }
-#Video{
-    text-decoration: none;
-    font-size: 20px;
-    color: blue 
-}
+
 
 #rulesOfTennis{
     text-decoration: none;
@@ -100,6 +96,20 @@ color: blue;
 #linkToBowling:hover {
     color: blue;
     }
+#linkTowaterpolo{
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+#linkTowaterpolo:hover{
+color: blue;
+}
+#linkToLacrosse:hover{
+    color: blue;
+    }
+#linkToRDerby:hover{
+     color: blue;
+     }
 #backToHome{
     text-decoration: none;
     font-size: 35px;
