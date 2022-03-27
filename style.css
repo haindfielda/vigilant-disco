@@ -23,10 +23,16 @@ img{
 #lacrosseBase {
     width: 60%;
 }
+#rDerbyBase {
+    width: 60%;
+}
 #bowlingBase {
     width: 60%;
 }
 #soccerFieldSetUp {
+    width: 50%;
+}
+#DsetUp {
     width: 50%;
 }
 #LField {
@@ -41,6 +47,11 @@ img{
 color: blue;
 }
 #linkToTennis{
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+#linkToRDerby{
     text-decoration: none;
     font-size: 20px;
     color: black
@@ -62,6 +73,11 @@ color: blue;
 }
 
 #rulesOfTennis{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue 
+}
+#rulesOfRollerDerby{
     text-decoration: none;
     font-size: 20px;
     color: blue 
