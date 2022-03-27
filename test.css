@@ -85,7 +85,8 @@ body.wrong {
 }
 
 .btn.wrong {
-  --hue: var(--wrong);
+  --hue: var(--hue-wrong);
+  color: black;
 }
 
 .start-btn, .next-btn {
